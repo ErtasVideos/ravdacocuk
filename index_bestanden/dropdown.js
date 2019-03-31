@@ -108,8 +108,8 @@ function init(){
 
 
 /*
-     FILE ARCHIVED ON 03:33:37 Jan 24, 2015 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 11:58:31 Mar 29, 2019.
+     FILE ARCHIVED ON 15:54:50 Jun 05, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:24:33 Mar 31, 2019.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -117,14 +117,14 @@ function init(){
 */
 /*
 playback timings (ms):
-  LoadShardBlock: 51.782 (3)
-  esindex: 0.006
-  captures_list: 78.931
-  CDXLines.iter: 14.2 (3)
-  PetaboxLoader3.datanode: 46.292 (4)
-  exclusion.robots: 0.133
-  exclusion.robots.policy: 0.123
-  RedisCDXSource: 9.946
-  PetaboxLoader3.resolve: 17.205
-  load_resource: 50.74
+  LoadShardBlock: 66.544 (3)
+  esindex: 0.008
+  captures_list: 90.642
+  CDXLines.iter: 13.0 (3)
+  PetaboxLoader3.datanode: 102.644 (4)
+  exclusion.robots: 0.154
+  exclusion.robots.policy: 0.142
+  RedisCDXSource: 7.958
+  PetaboxLoader3.resolve: 223.235
+  load_resource: 309.017
 */
