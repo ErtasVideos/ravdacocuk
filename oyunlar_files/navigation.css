@@ -1,0 +1,654 @@
+
+/* ########## Top-Navigation  #########*/
+#navTop {
+	position: absolute;
+/*Soldan saga dogru ve yukaridan asagiya uzaklik */
+	left: 33px; top:-11px;
+	padding:0;
+	margin: 10px 0 0 0;
+	padding: 0;
+	width: 629px;
+	height: 33px;
+	z-index: 50;
+}
+
+#navTop li {
+	width: 56px;
+	height: 33px;
+	position: absolute;
+	display: block;
+	list-style: none;
+}
+
+#navTop a {
+/* karelerin genisligi ve yüksekligi */
+	width: 66px;
+	height: 33px;
+	display: block;
+	color: #375474;
+	text-decoration: none;
+}
+#navTop a.last {
+	width: 56px;
+}
+
+#navTop li a i { display: none; }
+
+#n1  { left: 0; }
+#n2  { left: 70px; }
+#n3  { left: 140px; }
+#n4  { left: 210px; }
+#n5  { left: 280px; }
+#n6  { left: 350px; }
+#n7  { left: 420px; }
+#n8  { left: 490px; }
+#n9  { left: 560px; }
+#n10 { left: 630px; }
+#n11 { left: 700px; }
+#n12 { left: 770px; }
+#n13 { left: 700px; }
+
+#n2 a  { background-position: -60px 0; }
+#n3 a  { background-position: -120px 0; }
+#n4 a  { background-position: -171px 0; }
+#n5 a  { background-position: -228px 0; }
+#n6 a  { background-position: -285px 0; }
+#n7 a  { background-position: -342px 0; }
+#n8 a  { background-position: -399px 0; }
+#n9 a  { background-position: -456px 0; }
+#n10 a { background-position: -513px 0; }
+/* ExtraReiter */
+#navTop #n11 ul { left: -110px; }
+#navTop #n12 ul { left: -110px; }
+#navTop #n13 ul { left: -110px; }
+
+#n1 a:hover, #n1 a#aktiv, #n1 a.over {
+	background-position: 0 -33px;
+	background-color: #95B8FF;
+	color: #556688;
+}
+
+#n2 a:hover, #n2 a#aktiv, #n2 a.over {
+	background-position: -57px -33px;
+	background-color: #A8A8FF;
+	color: #556688;
+}
+
+#n3 a:hover, #n3 a#aktiv, #n3 a.over {
+	background-position: -114px -33px;
+	background-color: #ccddff;
+	color: #556688;
+}
+
+#n4 a:hover, #n4 a#aktiv, #n4 a.over {
+	background-position: -171px -33px;
+	background-color: #BBD1FF;
+	color: #556688;
+}
+
+#n5 a:hover, #n5 a#aktiv, #n5 a.over {
+	background-position: -228px -33px;
+	background-color: #FFC98C;
+	color: #556688;
+}
+
+#n6 a:hover, #n6 a#aktiv, #n6 a.over {
+	background-position: -285px -33px;
+	background-color: #94E308;
+	color: #556688;
+}
+
+#n7 a:hover, #n7 a#aktiv, #n7 a.over {
+	background-position: -342px -33px;
+	background-color: #FCA09D;
+	color: #556688;
+}
+
+#n8 a:hover, #n8 a#aktiv, #n8 a.over {
+	background-position: -399px -33px;
+	background-color: #DEDEDE;
+	color: #556688;
+}
+
+#n9 a:hover, #n9 a#aktiv, #n9 a.over {
+	background-position: -456px -33px;
+	background-color: #b8d3e7;
+	color: #556688;
+}
+
+#n10 a:hover, #n10 a#aktiv, #n10 a.over {
+	background-position: -513px -33px;
+	background-color: #DAE8AF;
+	color: #556688;
+}
+
+#n11 a:hover, #n11 a#aktiv, #n11 a.over {
+	background-position: 0 -33px;
+	background-color: #DA2131;
+	color: #556688;
+}
+
+#n12 a:hover, #n12 a#aktiv, #n12 a.over {
+	background-position: 0 -33px;
+	background-color: #B10505;
+	color: #556688;
+}
+
+#n13 a:hover, #n13 a#aktiv, #n13 a.over {
+	background-position: 0 -33px;
+	background-color: #00319C;
+	color: #556688;
+}
+
+#navTop li ul {
+	visibility: hidden;
+	position: absolute;
+	top: 33px;
+	left: -1px;
+	margin: 0 0 0 1px;
+	padding: 1px 0 0 0;
+	width: 160px;
+	border-width: 0px 1px 1px 4px;
+	border-style: solid;
+	border-color: #375474;
+}
+
+#navTop li ul li a {
+	line-height: 18px; /* HOEHE */
+}
+
+/* Hintergrundfarbe Aufklappmenue, Farbe des 4px breiten linken Randes */
+#navTop #n1 ul {   background-color: #95B8FF; border-left: 4px solid #95B8FF; }
+#navTop #n2 ul {   background-color: #A8A8FF; border-left: 4px solid #A8A8FF; }
+#navTop #n3 ul {   background-color: #ccddff; border-left: 4px solid #ccddff; }
+#navTop #n4 ul {   background-color: #BBD1FF; border-left: 4px solid #BBD1FF; }
+#navTop #n5 ul {   background-color: #FFC98C;  border-left: 4px solid #FFC98C; }
+#navTop #n6 ul {   background-color: #94E308;  border-left: 4px solid #94E308; }
+#navTop #n7 ul {   background-color: #FCA09D; border-left: 4px solid #FCA09D; }
+#navTop #n8 ul {   background-color: #DEDEDE;  border-left: 4px solid #DEDEDE; }
+#navTop #n9 ul {   background-color: #b8d3e7; border-left: 4px solid #b8d3e7; }
+#navTop #n10 ul { background-color: #DAE8AF;  border-left: 4px solid #DAE8AF; }
+
+#navTop li ul li {
+	_display: inline; /* wichtig fuer IE 55*/
+	border: none;
+	margin:0;
+}
+
+#navTop li ul li,
+#navTop li ul li a {
+	background-image: none;
+	width: auto;
+	_width: 160px;
+	position: relative;
+	height: 19px; /* HOEHE */
+	z-index: 56;
+}
+/* im IE MAC verstecken \*/
+#navTop li ul li,
+#navTop li ul li a {
+	background-image: none;
+	width: auto;
+	_width: 160px;
+	position: relative;
+	height: 18px; /* HOEHE */
+	z-index: 56;
+}
+/* ENDE IE MAC Hack */
+
+
+
+#navTop li ul li a,
+#metaNav  li ul li a {
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: 6px 6px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+/* IE MAC HACK - verstecken \*/
+#navTop li ul li a,
+#metaNav li ul li a  {
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: 3px 6px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+/* ENDE IE MAC HACK */
+
+#navTop li ul li a:hover,
+#metaNav li ul li a:hover {
+	background-repeat: no-repeat;
+	background-position: 6px 6px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+/* IE MAC HACK - verstecken \*/
+#navTop li ul li a:hover,
+#metaNav li ul li a:hover  {
+	background-repeat: no-repeat;
+	background-position: 3px 6px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+/* ENDE IE MAC HACK */
+
+/* Abstand des Menueeintrages vom linken Rand */
+#navTop li ul li a {  padding-left: 12px; }
+
+#navTop li:hover>ul { visibility: visible; /*display: block;*/ }
+
+/* Link mehr SHOPS */
+#moreshops {
+	position: relative;
+	top: 11px;
+	left: 706px;
+	width: 70px;
+	height: 31px;
+	z-index: 99;
+	color: rgb(53, 83, 119);
+}
+#moreshops img {
+	margin-top: 2px;
+}
+#moreshops div {
+	position: absolute;
+	top: 0px;
+	left: 16px;
+}
+#moreshops div a {
+	color: rgb(53, 83, 119);
+	font-weight: bold;
+	display: block;
+	width: 55px;
+}
+#moreshops .morevariety {
+	position: absolute;
+	top: -7px;
+}
+
+/* hier fuer IE Mac formatieren */
+#moreshopsicon {
+	position: absolute;
+	left:-30px;
+	top: 0px;
+	display: block;
+	width: 40px;
+	height: 32px;
+	z-index: 100;
+}
+/* IE MAC HACK - verstecken \*/
+#moreshopsicon {
+	position: absolute;
+	left:-30px;
+	display: block;
+	width: 40px;
+	height: 32px;
+}
+/* ENDE IE MAC HACK */
+
+/* hier fuer IE Mac formatieren */
+#moreshopslayer {
+	position: absolute;
+	top: 138px;
+	left: 645pxpx;
+	width: 134px;
+	height: 58px;
+	border: 1px solid #375474;
+	border-top: none;
+	visibility: hidden;
+	z-index: 70;
+}
+/* IE MAC HACK - verstecken \*/
+#moreshopslayer {
+	position: relative;
+	top: 87px;
+	_top: 95px;
+	left: 645px;
+	_left: 645px;
+	width: 132px;
+	_width: 134px;
+	height: 58px;
+	border: 1px solid #375474;
+	border-top: none;
+	visibility: hidden;
+	z-index: 70;
+}
+/* ENDE IE MAC HACK */
+
+/* hier fuer IE Mac formatieren */
+#moreshopslayer p {
+	color: #365277;
+	line-height: 15px;
+}
+
+/* IE MAC HACK - verstecken \*/
+#moreshopslayer p {
+	padding: 8px 0 0 0;
+	_padding: 0;
+	margin: 8px 2px 2px 3px;
+	color: #365277;
+	line-height: 15px;
+}
+/* ENDE IE MAC HACK */
+
+
+/* hier fuer IE Mac formatieren */
+#moreshopslayer p a {
+	color: #365277;
+	text-decoration: none;
+	display: block;
+	padding: 9px 0 0 4px;
+}
+/* IE MAC HACK - verstecken \*/
+#moreshopslayer p a {
+	color: #365277;
+	text-decoration: none;
+	display: block;
+	padding: 0;
+}
+/* ENDE IE MAC HACK */
+
+.moreshopslayer {
+	background-image: none!important;
+}
+
+
+
+/* ########## Meta-Navigation  #########*/
+
+#meta {
+	position: absolute;
+	left: 349px;
+	top: 8px;
+	width: 240px;
+	height: 16px;
+	z-index: 70;
+}
+
+#metaNav {
+	margin:0;
+	padding: 0;
+	width: 238px;
+	height: 16px;
+	z-index: 44;
+}
+
+#metaNav li {
+	height: 17px;
+	position: absolute;
+	display: block;
+	list-style: none;
+}
+
+#metaNav a {
+	height: 16px;
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+
+#metaNav li a i { display: none; }
+
+#m1 { left: 0; z-index: 29; width: 115px;  }
+#m2 { left: 125px; width:115px; z-index: 18; }
+
+#m1 a { }
+#m2 a { background-position: -125px 0; }
+
+#m1 a:hover, #m1 a#aktivM, #m1 a.over {
+	background-position: 0 -17px;
+	background-color: #B90302;
+	color: #fff;
+}
+
+#m2 a:hover, #m2 a#aktivM, #m2 a.over {
+	background-position: -125px -17px;
+	background-color: ECC40A;
+	color: #fff;
+}
+
+
+#metaNav li ul{
+	visibility: hidden;
+	position: absolute;
+	top: 16px;
+	left: -1px;
+	margin: 0 0 0 1px;
+	padding: 1px 0 0 0;
+	z-index: 46;
+	width: 160px;
+	border-width: 0px 1px 1px 4px;
+	border-style: solid;
+	border-color: #526E8D;
+}
+
+#metaNav  ul li a {
+	line-height: 18px; /* HOEHE */
+}
+
+#metaNav #m1 ul { background-color: #B90302; border-left-color: #B90302; }
+#metaNav #m2 ul { background-color: #ECC40A; border-left-color: #ECC40A; }
+
+#metaNav li ul li{
+	_display:inline;
+}
+
+#metaNav li ul li a {  padding-left: 12px; }
+
+#metaNav li ul li,
+#metaNav li ul li a {
+	background-image: none;
+	width: auto;
+	_width: 160px;
+	position: relative;
+	height: 19px; /* HOEHE */
+}
+/* im IE MAC verstecken \*/
+#metaNav li ul li,
+#metaNav li ul li a {
+	background-image: none;
+	width: auto;
+	_width: 160px;
+	position: relative;
+	height: 18px; /* HOEHE */
+}
+/* ENDE IE MAC Hack */
+
+#metaNav li:hover>ul { visibility: visible;  }
+
+#metaNav li.line, #navTop li.line {
+	border: 1px solid white;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	height: 1px;
+	line-height:1px;
+	font-size:1px;
+}
+
+#metaNav .first,  #navTop .first{ border-top: 1px solid white; }
+#metaNav .last,  #navTop .last { border-bottom: 1px solid white; }
+
+
+
+.metaSub{
+	color: #fff;
+	font-size: 10px;
+	position:absolute;
+}
+
+.metaSub a{
+	color: #375474;
+	text-decoration: none;
+}
+
+#service{
+	left:124px;
+	top: 20px;
+	position: absolute;
+}
+
+#myotto{
+	left:-1px;
+	top: 20px;
+	position: absolute;
+}
+
+
+
+/* Bestellschein Warenkorb */
+#bestellschein{
+	width: 180px;
+	position: absolute;
+	left: 599px;
+	top: 8px;
+	height: 49px;
+}
+
+#bestellschein a.basket {
+	display: block;
+	margin: 0;
+	padding: 2px 5px 0 10px;
+	height: 14px;
+	_height: 16px;
+	font: bold 11px arial;
+	text-decoration: none;
+	color: #C00108;
+}
+
+#bestellschein a.basket:hover{
+	background-position: 0 -16px;
+	color: #fff;
+}
+
+#bestellschein a.basket#aktiv{
+	background-position: 0 -16px;
+	color: #fff;
+}
+#bestellschein a.basket#aktivBasket{
+	background-position: 0 -32px;
+	color: #fff;
+}
+
+#bestellschein div {
+	width: 178px;
+	_width: 180px;
+	height: 32px;
+	_height: 33px;
+	border: 1px solid #375474;
+	border-top: none;
+	background-color: #D1E6F9;
+}
+html>body  #bestellschein div  { box-sizing: content-box; }
+
+#bestellschein table {
+	width: 178px;
+	color: #375675;
+	line-height: 14px;
+	margin-top: 3px;
+}
+#bestellschein table td img {
+	border: none;
+	margin: 2px 0 0 5px;
+}
+/*#bestellschein td { width: 45px; } */
+#bestellschein .items {
+	width: 128px;
+	font-family: verdana, arial;
+	font-size: 10px;
+}
+
+
+
+
+/*  Suche Redesign */
+/*#metaSearch dt, #metaSearch dd, #metaSearch  { padding: 0; margin: 0; }*/
+#metaSearch {
+	position: absolute;
+	left: 0;
+	top: 64px;
+	width: 779px;
+	height: 31px;
+	border-bottom: 1px solid white;
+}
+#metaSearch img { display: block; }
+#metaSearch table { margin: 1px 0 0 4px; }
+#metaSearch td.text { width: 42px; }
+#metaSearch td.search { padding-top:4px; }
+#metaSearch div.right {
+	width: 775px;
+	_width: 776px;
+	height: 29px;
+	_height: 31px;
+	border: 1px solid #375474;
+	border-left: none;
+	background-color: #D1E6F9;
+}
+html>body  #metaSearch div.right  { box-sizing: content-box; }
+
+#metaSearch img.los { margin-top: 3px;	}
+#metaSearch table td  {
+	padding: 0 7px 0 0;
+	font-weight: bold;
+	font-size: 11px;
+	color: #375474;
+}
+#metaSearch input  {
+	font-size: 11px;
+	_height: 18px;
+	width: 240px;
+	margin: 2px 2px 0 0;
+}
+#metaSearch a  {
+	text-decoration: none;
+	font-weight: normal;
+	color: #375474;
+	margin-left: 2px;
+}
+#metaSearch td.text a { margin-left: 0; font-weight: bold; }
+#metaSearch form {
+	margin: 0; padding: 0;
+}
+#metaSearch table td div {
+	height: 28px;
+}
+html>body  #metaSearch  { box-sizing: content-box; }
+
+/* Trennerlinie unterhalb der Reiternavigation */
+.navTopTrenner {
+	position: absolute;
+	left: 0;
+	top: 138px;
+	width: 779px;
+	border-bottom:1px solid white;
+	display: block;
+}
+.navTopTrenner img { height: 11px; }
+
+
+#navTop LI UL LI A {
+	BACKGROUND: url(/web/20150124040737im_/http://www.ravda.net/nav_pfeil_bl.gif) white no-repeat 3px 6px
+}
+
+/*
+     FILE ARCHIVED ON 04:07:37 Jan 24, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:21:21 Mar 07, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 77.994 (3)
+  esindex: 0.01
+  captures_list: 102.854
+  CDXLines.iter: 16.574 (3)
+  PetaboxLoader3.datanode: 69.352 (4)
+  exclusion.robots: 0.264
+  exclusion.robots.policy: 0.245
+  RedisCDXSource: 2.794
+  PetaboxLoader3.resolve: 83.531
+  load_resource: 168.305
+*/

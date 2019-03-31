@@ -1,0 +1,41 @@
+/* ############## Basislayout ############### */
+
+#topnavi {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 66;
+	margin-left:auto;
+	margin-right: auto;
+/* arka planin yüksekligi */
+	height: 33px;
+	_height: 33px;
+	background: #b8d3e7;
+	position: relative;
+	width: 770px;
+	text-align: left;
+	border-bottom: 3px solid #b8d3e7;
+}
+html>body  #topnavi  { box-sizing: content-box; }
+
+/*
+     FILE ARCHIVED ON 09:58:05 Nov 06, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:58:30 Mar 29, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 174.941 (3)
+  esindex: 0.005
+  captures_list: 190.886
+  CDXLines.iter: 10.608 (3)
+  PetaboxLoader3.datanode: 153.286 (4)
+  exclusion.robots: 0.15
+  exclusion.robots.policy: 0.143
+  RedisCDXSource: 2.577
+  PetaboxLoader3.resolve: 51.503 (2)
+  load_resource: 77.916
+*/
